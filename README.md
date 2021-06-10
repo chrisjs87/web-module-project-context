@@ -12,16 +12,14 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 ### Description
 
-In this project you'll take take an almost completed e-commerce store and refactor the application to use the `Context API`.
+In this project you'll take an almost completed e-commerce store and refactor the application to use the `Context API`.
 
 ### Instructions
 
 ### Task 1: Project Set up
 
 - [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd react-shopping-cart`.
 - [ ] Download project dependencies by running `npm install`.
 - [ ] Start up the app using `npm start`.
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -36,7 +34,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 - You'll also notice inside of our `App.js` we have 3 components. A navigation component and two route based components. Each of those components are all being passed either our `cart` state or `product` state as props, when we start to scale our application and add more props our codebase is going to start to become very cumbersome and will make our application hard to work with.
 
-- To combat this from happening we're going to refactor our application to use `Context API`, making it easier and more effiecent to access data across our application.
+- To combat this from happening we're going to refactor our application to use `Context API`, making it easier and more efficient to access data across our application.
 
 **Step 1 - Add item functionality**
 
