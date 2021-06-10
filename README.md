@@ -48,6 +48,10 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 - In this file, import the `createContext` function from the react library and create our `ProductContext`.
 
+
+
+
+
 **STEP 3 - Providing data with ProductContext**
 
 - Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
@@ -152,6 +156,22 @@ We have now successfully converted our application into using `Context API` 🔥
 - Create a `ProductContext` and a `CartContext`
 - Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
 - Consume data using the `useContext` hook from `ProductContext` and `CartContext`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Task 3: Stretch Problems
 
