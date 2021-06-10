@@ -48,10 +48,6 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 - In this file, import the `createContext` function from the react library and create our `ProductContext`.
 
-
-
-
-
 **STEP 3 - Providing data with ProductContext**
 
 - Now that we've created our `ProductContext` we can import into our `App.js`. Now we can start providing data across our application!
@@ -108,23 +104,6 @@ const { products, addItem } = useContext(ProductContext);
 
 - Now our `Products` component is getting it's data solely from `Context API` 😃.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **STEP 5 - Create the CartContext**
 
 - Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `Cart` and `Navigation` Component to use `Context API` as well.
@@ -132,11 +111,6 @@ const { products, addItem } = useContext(ProductContext);
 - To start create a new file in our contexts folder named `CartContext.js`, this context is going to be utilized by our `ShoppingCart` and `Navigation` component.
 
 - Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
-
-
-
-
-
 
 **STEP 6 - Providing data with CartContext**
 
