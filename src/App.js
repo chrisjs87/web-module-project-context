@@ -13,6 +13,9 @@ function App() {
 
 	const addItem = item => {
 		// add the given item to the cart
+		// console.log('Cart before items added: ', cart)
+		setCart([...cart, item])
+		// console.log('Cart after items added: ', cart)
 	};
 
 	return (
